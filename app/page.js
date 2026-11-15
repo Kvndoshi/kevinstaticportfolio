@@ -1,7 +1,6 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import AskKevin from './components/AskKevin'
 import WhyHireMe from './components/WhyHireMe'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
@@ -16,9 +15,7 @@ export default function Home() {
           <Hero />
         </section>
 
-        <section id="ask-kevin">
-          <AskKevin />
-        </section>
+        <section id="ask-kevin" dangerouslySetInnerHTML={{ __html: '<script src="https://www.chatty4all.design/widget.js" data-bot="bot_tg5nimy68tgw" data-inline async></script>' }} />
 
         <section id="why-hire-me">
           <WhyHireMe />
