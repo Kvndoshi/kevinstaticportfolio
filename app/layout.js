@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        <script src="https://chatty4everyone.vercel.app/widget.js" data-bot="bot_9q2qfn7y5iri" async></script>
       </body>
     </html>
   )

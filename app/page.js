@@ -1,6 +1,7 @@
 import './globals.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import AskKevin from './components/AskKevin'
 import WhyHireMe from './components/WhyHireMe'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
@@ -13,6 +14,10 @@ export default function Home() {
       <div className="layout-container">
         <section id="hero">
           <Hero />
+        </section>
+
+        <section id="ask-kevin">
+          <AskKevin />
         </section>
 
         <section id="why-hire-me">
